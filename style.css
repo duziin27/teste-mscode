@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins";
+}
+
+header{
+    display: block;
+    width: 100vw;
+    background: whitesmoke;
+}
+
+.logo-topo{
+    width: 100vw;
+    height: 30px;
+}
+
+.logo-principal{
+    margin: 7px;
+    margin-left: 30px;
+}
+
+body{
+    background: red;
+    width: 100vw;
+    height: 100vh;
+}
+
+main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+form{
+    border-radius: 10px;
+    width: 50%;
+    background-color: whitesmoke;
+    padding: 30px;
+    height: 164%;
+    margin-top: 30px;
+}
+
+
+#titulo{
+    font-family: sans-serif;
+    color: black;
+    text-align: center;
+    margin: 10px;
+}
+
+fieldset{
+    border: 1;
+}
+
+.botao {
+    font-size: 1.2em;
+    border: 1;
+    border-radius: 8px;
+    margin-bottom: 1em;
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+    background-color: red(220, 0, 0);
+    color: black;
+    margin-left: 87%;
+    cursor: pointer;
+}
+
+textarea{
+    width: 100%;
+}
+
+.check{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20px;
+}
+
+.input-radio{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20px;
+    margin-left: 10px;
+}
+
+.qualquercoisa{
+    display: block;
+}
+
+.input-grupo{
+    display: flex;
+    width: 100%;
+}
+
+.alinhar-input{
+    width: 50%;
+    margin: 10px;
+}
+
+.input-dados{
+    width: 100%;
+}
+
